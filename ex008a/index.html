@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+        <h2>Código-fonte / Pré-formatação</h2>
+            <p>
+                O comando <code>document.getElementById('teste')</code> é escrito na linguagem JavaScript. Utiliza-se a tag <mark style="background-color: cyan;">code</mark> para fazer esse tipo de marcação
+            </p>
+    <pre>
+        <code>
+    num = int(input('Digite um numero: '))
+    if num % 2 == 0:
+        print('É par')
+    else:
+        print('É ímpar')
+        </code>
+    </pre>
+    Esse é um exemplo de bloco de código em python que pode ser feito utilizando a tag <mark>pre</mark> que tabula o texto de acordo com a distância que está da margem no código, combinada com a tag code.  
+
+        <h2>Citações</h2>
+        Utiliza-se a tag <mark>q</mark> para fazer citações
+            <p>
+                Como diria o filósofo piton: <q>tudo na vida...</q>
+            </p>
+        <h2>Citações completas</h2>
+            Segundo Cormen em seu livro Introduction to Algorithm:
+            <blockquote cite="https://books.google.com.br/books?hl=pt-BR&lr=&id=drZNEAAAQBAJ&oi=fnd&pg=PR13&dq=introduction+to+algorithms&ots=pdQi1pga6f&sig=YpwFNrFzwpnS_tHR_nI5Tzun994&redir_esc=y#v=onepage&q&f=false">
+                informally, an algorithm is any well-defined computational procedure that takes some value, of set of values, as input and produce some value, or set of values, as output in a finitie amount time.
+            </blockquote>
+        <h2>Abreviações</h2>
+            Utiliza a tab <mark>abbr</mark> para significar a sigla
+            <p>Estou estudando <abbr title="HyperText Markdown Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+        <h2>Texto invertido</h2>
+        Inverte o texto da esquerda pra direita ou direita pra esquerda com a tag <mark>bdo e o dir de parâmetro sendo ltr ou rtl</mark>
+        <br>
+        <bdo dir="rtl">Estou estudando HTML e CSS</bdo>
+</body>
+</html>
